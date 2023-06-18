@@ -1127,7 +1127,7 @@ border: none;
  }
 
  .check-policy {
-display: flex;
+/* display: flex; */
 align-items: center;
 font-weight: 400;
 font-size: 12px;
