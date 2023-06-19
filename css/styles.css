@@ -73,7 +73,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .header-container {
                 display: flex;
                 align-items: center;
-                border-bottom: 1px solid #E7E9FC;
+                /* border-bottom: 1px solid #E7E9FC; */
                 /* padding-bottom: 25.5px; */
                 padding: 0 15px 0 15px
 }
@@ -82,11 +82,12 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .header-link {
-    color: #404bbf;
+    color: var(--navy-blue-color);
+
 }
 
 .underline-studio {
@@ -161,11 +162,12 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .logo-header:active {text-decoration: underline;}
 
 .header-link {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:  #404bbf;;
+    color:  var(--navy-blue-color);
     padding: 24px 0;
     transition-property: color;
     transition-duration: 250ms;
@@ -1031,7 +1033,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--navy-blue-color);
-margin-top: 72px;
+/* margin-top: 72px; */
 margin-bottom: 16px;
 
 }
